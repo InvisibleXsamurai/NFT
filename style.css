@@ -1,0 +1,163 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body {
+background-color: #0c1729;
+min-height:100vh;
+font-size: 18px;
+font-family: 'Outfit', sans-serif;
+}
+.main {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container .box{
+    margin-top:8.333em;
+    border-radius:0.44em;
+    height:30.277em;
+    width:18.333em;
+    background: hsl(0, 0%, 100%);
+    
+    background-color: #15273f;
+}
+.box_img{
+    position: relative;
+}
+.nft_img{
+    width:15.555em;
+    height:15.555em;
+    margin-top:1.388em;
+    border-radius:0.444em;
+}
+.nft_img .box_img{
+    margin: 0 auto;
+    display: block;
+    border-radius: 0.444em;
+}
+.box_img:hover .overlay{
+    background: hsla(178, 100%, 50%, 0.4);
+    display: block;
+    cursor: pointer;
+}
+.overlay {
+    position: absolute;
+    height: 15.555em;
+    width: 15.555em;
+    left: 0;
+    top: 0;
+    display: none;
+    
+    margin-left: 1.388em;
+    margin-top:1.388em;
+    border-radius: 0.444em; }
+
+    .overlay .eye_img {
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%); }
+
+.box_tittle{
+    color:white;
+    font-size: 21px;
+    text-align: left;
+    margin-left:1.2em;
+    margin-top:1.111em;
+    font-weight: 600;
+}
+.box_tittle:hover{
+    cursor: pointer;
+    color: hsl(178deg, 100%, 50%);
+}
+
+.box_description{
+    width:16.944em;
+    margin-top:0.8333em;
+    margin-left:1.666em;
+    text-align:left;
+    color:#9fb3d3;
+    font-size:16px;
+    font-weight:300;
+
+}
+
+.box_eth{
+text-align:left;
+margin-left:1.388em;
+margin-top:1.2em;
+margin-bottom:1em;
+}
+.item_nft{
+width:0.611em; 
+height:1em;
+margin-bottom:-0.222em;
+    
+}
+
+.box_nft{
+text-align:left;
+font-size:17px;
+font-weight:400;
+color:#00f7f4;
+}
+
+.item_clock{
+width:0.9444em;
+height:0.9444em;
+margin-bottom:-0.2em;
+margin-left:4.833em;
+}
+.box_clock{
+color:white;
+font-size:17px;
+font-weight:300;
+color: #9fb3d3;
+}
+
+#line{
+width: 15.555em;
+margin-left:1.388em;
+border: 0.001em solid hsl(215deg, 32%, 27%)
+}
+
+.box_creator{
+text-align:center;
+color:white;
+margin-top:15px;
+text-align: left;
+font-size:17px;
+}
+
+.box_creator_avatar{
+width: 1.833em;
+margin-left:1.388em;
+margin-bottom:-0.5em;
+margin-right:0.8em;
+border: 0.1em solid white;
+border-radius: 1.666em;
+}
+
+.box_creator_tittle{
+color:#9fb3d3;
+padding-right:0.2em;
+font-weight: 300;
+}
+fotter{
+    text-align:center;
+    color:white;
+}
